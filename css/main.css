@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700');
+
+a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h4 {
+    color: #828282;    
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #0585bb;
+}
+
+.nav-top i {
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.nav-top ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav-top ul li a:hover {
+    color: #035273;
+}
+
+.nav-top {
+    text-align: right;
+    background: #009ee1;
+    padding-top: 10px;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: transparent;
+    border-bottom: 3px solid #009ee1;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand>img {
+    display: block;
+    width: 240px;
+    margin-top: -26px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #009ee1;
+}
+
+.navbar .tel i {
+    color: #9d9d9d;
+    font-size: 22px;
+}
+
+.navbar .tel {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #009ee1;
+    width: 40%;
+}
+
+.item {
+    height: 600px;
+}
+
+.section-produtos {
+    text-align: center;    
+    padding-top: 80px;
+}
+
+.section-produtos .compressor {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: url(../images/CPM.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 48%;
+    height: 120px;
+}
+
+.section-produtos .compressor:before {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.section-produtos .compressor:hover:before {
+    opacity:0;
+}
+
+.section-produtos .maquinas {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: url(../images/maquinass.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 48%;
+    height: 120px;
+}
+
+.section-produtos .maquinas:before {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.section-produtos .maquinas:hover:before {
+    opacity:0;
+}
+
+.section-produtos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.section-produtos a h1 {
+    position: absolute;
+}
+
+.section-empresa{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.section-empresa {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url(../images/empresa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-empresa {
+    background-image: url(../images/bg.png);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-produtos {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-empresa p {
+    color: #fff;
+}
+
+.section-empresa h4 {
+    color: #fff;
+}
+
+.section-contato {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: -5px;
+}
+
+.section-contato h1 {
+    padding-bottom: 50px;
+}
+
+textarea {
+    width: 460px;
+    height: 180px;
+}
+
+input, select {
+    height: 35px;
+    width: 460px;
+}
+
+label {
+    text-align: left;
+    font-size: 15px;
+    color: #0585bb;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    background-color: #0585bb;
+    border: none;
+    color: #fff;
+    width: 18%;
+    border-radius: 2px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.maps {
+    margin-top: 80px;
+}
+
+.screen-reader-response {
+    background: #e6e6e6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display:none;
+}
+
+.form {
+    padding-bottom: 70px;
+}
+
+.screen-reader-response ul li {
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}	
+
+span.wpcf7-not-valid-tip {
+    width: 100%;
+    float: left;
+    color: #c70303;
+}
+
+.section-footer {
+    background: #fff;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #0585bb;
+}
+
+.section-footer .col-md-6 {
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.section-footer .col-md-6 {
+    margin-top: 10px;
+}
+
+.section-footer img {
+  width: 100%;
+}
+
+.section-footer p {
+  color: #fff;
+}
+
+.efeito {
+    color: white;
+    height: 0px;
+    line-height: 0;
+    border-top: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 98px solid #0585bb;
+    line-height: 70px;
+    text-indent: 20px;
+    width: 50%;
+    top: -40px;
+    position: absolute;
+}
+
+.social ul{
+    padding-top: 10px;
+}
+
+.social ul li a {
+    color: #0585bb;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.social ul li a:hover {
+    color: #034865;
+}
+
+.section-footer-menu {
+    border-bottom: 5px solid #0585bb;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0585bb;
+}
+
+.section-footer-menu ul li p {
+  font-family: 'PT Sans', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  color: #828282;
+  padding-left: 80px;
+}
+
+.section-footer-menu i {
+    width: 20px;
+    font-size: 17px;
+    color: #0585bb;
+}
+
+.section-footer-menu ul li a {
+    text-decoration: none;
+}
+
+.section-footer-menu ul {
+    list-style: none;
+    margin-left: -38px;
+}
+
+.section-footer-menu .info ul {
+    list-style: none;
+    margin-left: -58px;
+}
+
+.section-footer-menu .info{
+  text-align: center;
+}
+
+.section-footer-menu .pag {
+    text-align: right;
+}
+
+.section-footer-menu .pag img {
+  width: 60%;
+}
+
+.section-footer-rodape {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-footer-rodape .mantis img {
+    width: 20%;
+}
+
+.section-footer-rodape .mantis p {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.section-footer-rodape p {
+    color: #828282;
+}
+
+
+/******************
+      PAGES 
+******************/
+
+.box-catalogo img {
+    width: 100%;
+}
+
+section.catalogos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}.prods .col-md-4
+
+.title-prod h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #0585bb;
+    position: relative;
+}
+
+.title-prod h2 {
+    color: #ffffff;
+    position: relative;
+}
+
+.title-prod:before {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+section.title-prod-agri {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background: url(../images/agricultura.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section.title-prod-constru {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background: url(../images/construcaocivil.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section.title-prod-gerador {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background: url(../images/gerador.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section.title-prod-jardim {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background: url(../images/jardim.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-lat ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.menu-lat {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #0585bb;
+}
+
+.menu-lat li a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-lat li a:hover {
+    color: #c1c1c1;
+}
+
+.prods {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.prods .col-md-4 {
+    height: 400px;
+    background: #fff;
+    border: 10px solid #eaeaea;
+    position: relative;
+    border-radius: 13px;
+}
+
+.botao-prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.botao-prod a:hover i {
+    color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.botao-prod a:hover {
+    background: #337ab7;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.botao-prod a {
+    background: #eaeaea;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.prod-title h4 {
+    color: #9d9d9d;
+    padding-bottom: 25px;
+}
+
+.prod-title {
+    padding-top: 30px;
+}
+
+.botao-comprar i {
+    color: #fff;
+}
+
+.botao-comprar {
+    margin-top: 5px;
+    background: #0585bb;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 30px;
+    transition: all 300ms ease-in;
+}
+
+.botao-comprar:hover {
+    transition: all 300ms ease-in;
+    background: #9d9d9d;
+}
+
+section.section-prods {
+    background: #eaeaea;
+}
+
+.prods .col-md-4 img {
+    padding-top: 20px;
+}
+
+.mantis{
+    text-align:right;
+}
+
+hr{
+    border-top: 2px solid #eaeaea;
+}
+
+div#exampleModal {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009dd9;
+}
+
+.modal-body {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/******************
+      MOBILE 
+******************/
+@media screen and (max-width: 768px) {
+
+.nav-top {
+    text-align:center;
+}
+
+.nav-top ul li a {
+    font-size: 13px;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    width: 12%;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #f7f7f7;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #0585bb;
+}
+
+.navbar .tel {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #f7f7f7;
+}
+
+section.section-inicio {
+    height: 200px;
+}
+
+.owl-carousel .owl-item img {
+    height: 230px;
+}
+
+.item {
+    height: 230px;
+}
+
+.none{
+    display:none;
+}
+
+.prod-title {
+    padding-bottom: 110px;
+}
+
+.prods .col-md-4 {
+    height: 400px;
+}
+
+.section-produtos .compressor{
+    width: 100%;
+}
+
+.section-produtos .maquinas {
+    width: 100%;
+}
+
+.section-produtos a {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.efeito {
+    color: white;
+    height: 0px;
+    line-height: 0;
+    border-top: none;
+    border-right: none;
+    border-bottom: 140px solid #0585bb;
+    line-height: 70px;
+    text-indent: 20px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.section-footer {
+    text-align: center;
+}
+
+.section-footer img {
+    width: 80%;
+}
+
+.redes {
+    padding-top: 20px;
+}
+
+.col-md-6.social {
+    margin-left: 20px;
+}
+
+.section-footer-menu .pag {
+    text-align: center;
+}
+
+.section-footer-menu {
+    text-align: center;
+}
+
+.section-footer-rodape {
+    text-align: center;
+}
+
+.mantis{
+    text-align:center;
+}
+
+.section-footer-rodape .mantis img {
+    width: 30%;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    width: 25%;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    margin-right: 0px;
+}
+
+.wpcf7-textarea,
+   .wpcf7-text {
+     max-width: 100%;
+     padding: 10px 1px !important;
+   }
+
+.col-md-5 {
+    width: 41.66666667%;
+}
+
+}
